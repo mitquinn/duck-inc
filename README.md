@@ -1,21 +1,21 @@
-**Day 1**
+#Day 1#
 
 Estimated Completion Time: 10-20 minutes.
 
-Welcome to _Duck Inc_.
+Welcome to **Duck Inc**.
 
-You have accepted this position at the amazing _Duck Inc_. We have this amazing new cloning technology that will transform your code into real ducks. Surprisingly it runs on PHP!
+You have accepted this position at the amazing **Duck Inc**. We have this amazing new cloning technology that will transform your code into real ducks. Surprisingly it runs on PHP!
 
 Luckily ducks are surprisingly easy to create because the cloning machine is so advanced. 
 
 So for your first project we need you to build a Mallard.
 
-All you need to do is:
- - Create a Mallard class (we handled the creation of the file for you.)
- - The Mallard class will need to be able to fly, quack, swim. When you add these methods the cloning machine will give the duck these abilities.
- - Each method should just return its name in the form of a string. (Example: quack()->"quack" ).
- - The sales team has already let us know that more species of duck are going to be needed in the future. So keep that in mind.
- - The _Duck Inc_ QA team handled the phpunit test for you. These will validate the ducks you are creating. If you want to test your work feel free to run _phpunit_ root directory
+**All you need to do is:**
+ 1. Create a Mallard class (we handled the creation of the file for you.)
+ 2. The Mallard class will need to be able to fly, quack, swim. When you add these methods the cloning machine will give the duck these abilities.
+ 3. Each method should just return its name in the form of a string. (Example: quack()->"quack" ).
+ 4. The sales team has already let us know that more species of duck are going to be needed in the future. So keep that in mind.
+ 5. The **Duck Inc** QA team handled the phpunit test for you. These will validate the ducks you are creating. If you want to test your work feel free to run _phpunit_ root directory
 
 We included a little markup to get you started today. We need you to complete work by Wednesday. Your pull request should be submitted in the format of "Your Name - Day 1"
 

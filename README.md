@@ -17,7 +17,7 @@ So for your first project we need you to build a Mallard.
  4. The sales team has already let us know that more species of duck are going to be needed in the future. So keep that in mind.
  5. The **Duck Inc** QA team handled the phpunit test for you. These will validate the ducks you are creating. If you want to test your work feel free to run _phpunit_ root directory
 
-We included a little markup to get you started today. We need you to complete work by Wednesday. Your pull request should be submitted in the format of "Your Name - Day 1"
+We included a little markup to get you started today. We need you to complete work by Tuesday. Your pull request should be submitted in the format of "Your Name - Day 1"
 
 If you have any questions feel free to reach out to Mitch or Kelvin.
 

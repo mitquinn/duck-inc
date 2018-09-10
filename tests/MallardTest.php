@@ -5,9 +5,18 @@ namespace Tests;
 use App\Mallard;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Class MallardTest
+ * @package Tests
+ */
 class MallardTest extends TestCase {
+
+    /** @var Mallard $mallard */
     protected $mallard;
 
+    /**
+     * Setup
+     */
     protected function setUp()
     {
         $this->mallard = new Mallard();
@@ -35,13 +44,5 @@ class MallardTest extends TestCase {
     public function it_can_swim()
     {
         $this->assertSame('swim', $this->mallard->swim());
-    }
-
-    /**
-     * @test
-     */
-    public function it_knows_its_color()
-    {
-        $this->assertSame('black', $this->mallard->color());
     }
 }

@@ -11,6 +11,7 @@ Luckily ducks are surprisingly easy to create because the cloning machine is so 
 So for your first project we need you to build a Mallard.
 
 **All you need to do is:**
+
  1. Create a Mallard class (we handled the creation of the file for you.)
  2. The Mallard class will need to be able to fly, quack, swim. When you add these methods the cloning machine will give the duck these abilities.
  3. Each method should just return its name in the form of a string. (Example: quack()->"quack" ).

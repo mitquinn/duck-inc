@@ -28,7 +28,7 @@ Good Luck on your first day
 
 **Remember to get your pull request in for Day 1!**
 
-So great news sales has finally closed the deal with on _the Duck Feather Pillow Company_ and they have put in a huge order for **CanvasBack Ducks**.
+So great news sales has finally closed the deal with the _Duck Feather Pillow Company_ and they have put in a huge order for **Canvasback** ducks.
 
 So your task for today is implement a **Canvasback** class.
 
@@ -43,6 +43,6 @@ public function clone()
 }
 ```
 
-This will need to be added to the mallard and the canvasback in order for them to clone.
+This will need to be added to all ducks in order for them to clone.
 
 Please submit your Pull Request by Wednesday and the title should be "{{Your Name}} - Day 2" 

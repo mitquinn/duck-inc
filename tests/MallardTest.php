@@ -25,9 +25,17 @@ class MallardTest extends TestCase {
     /**
      * @test
      */
+    public function it_can_clone()
+    {
+        static::assertSame(Mallard::class, $this->mallard->clone());
+    }
+
+    /**
+     * @test
+     */
     public function it_can_quack()
     {
-        $this->assertSame('quack', $this->mallard->quack());
+        static::assertSame('quack', $this->mallard->quack());
     }
 
     /**
@@ -35,7 +43,7 @@ class MallardTest extends TestCase {
      */
     public function it_can_fly()
     {
-        $this->assertSame('fly', $this->mallard->fly());
+        static::assertSame('fly', $this->mallard->fly());
     }
 
     /**
@@ -43,6 +51,6 @@ class MallardTest extends TestCase {
      */
     public function it_can_swim()
     {
-        $this->assertSame('swim', $this->mallard->swim());
+        static::assertSame('swim', $this->mallard->swim());
     }
 }

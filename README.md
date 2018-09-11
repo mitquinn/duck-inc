@@ -22,4 +22,27 @@ We included a little markup to get you started today. We need you to complete wo
 
 If you have any questions feel free to reach out to Mitch or Kelvin.
 
-Good Luck on your first day!
+Good Luck on your first day
+
+#Day 2#
+
+**Remember to get your pull request in for Day 1!**
+
+So great news sales has finally closed the deal with on _the Duck Feather Pillow Company_ and they have put in a huge order for **CanvasBack Ducks**.
+
+So your task for today is implement a **Canvasback** class.
+
+Of course the canvasback will need to be able to quack, fly and swim. It turns out though that the canvasback is a slow swimmer so make sure the output for the swimming method is 'swim slowly'.
+
+Oh the team working on the cloning machine have asked that the ducks have a clone method with some of their technical code be added to the ducks as well. I put the code below:
+
+```php
+public function clone()
+{
+  return get_class($this);
+}
+```
+
+This will need to be added to the mallard and the canvasback in order for them to clone.
+
+Please submit your Pull Request by Wednesday and the title should be "{{Your Name}} - Day 2" 

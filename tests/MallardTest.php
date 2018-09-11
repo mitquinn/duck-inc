@@ -25,9 +25,9 @@ class MallardTest extends TestCase {
     /**
      * @test
      */
-    public function it_can_clone()
+    public function it_can_replicate()
     {
-        static::assertSame(Mallard::class, $this->mallard->clone());
+        static::assertSame(Mallard::class, $this->mallard->replicate());
     }
 
     /**

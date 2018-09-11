@@ -37,7 +37,7 @@ Of course the canvasback will need to be able to quack, fly and swim. It turns o
 Oh the team working on the cloning machine have asked that the ducks have a clone method with some of their technical code be added to the ducks as well. I put the code below:
 
 ```php
-public function clone()
+public function replicate()
 {
   return get_class($this);
 }

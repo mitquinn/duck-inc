@@ -25,9 +25,9 @@ class CanvasbackTest extends TestCase {
     /**
      * @test
      */
-    public function it_can_clone()
+    public function it_can_replicate()
     {
-        static::assertSame(Canvasback::class, $this->canvasback->clone());
+        static::assertSame(Canvasback::class, $this->canvasback->replicate());
     }
 
     /**

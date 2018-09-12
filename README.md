@@ -46,3 +46,31 @@ public function replicate()
 This will need to be added to all ducks in order for them to clone.
 
 Please submit your Pull Request by Wednesday and the title should be "{{Your Name}} - Day 2" 
+
+#Day 3#
+
+**Remember to get your pull request in for Day 2!**
+
+So sort of good news. Tommy the new sales guy was able to close a giant deal with a _Bath, Bath, and Beyond_. 
+
+Unfortunately, Tommy didn't really understand the product very well and the ducks that he sold were Rubber ducks..
+
+We haven't told the cloning team yet but in the mean time we need you to create a **RubberDuck** class.
+
+The **RubberDuck** class can quack and swim however it can **not** fly. So that method should **not** be impliemented. 
+
+Also as a bonus **RubberDuck** should have a method called listen. Which can be helpful for programmers working on hard tasks.
+
+Last thing the cloning team asked that your __replicate__ function return an instance of the class itself. They provided some code:
+
+```php
+public function replicate()
+{
+  return $this;
+}
+```
+
+Thanks for all of your hard work this week. Get your pull request in by tomorrow please.
+
+
+

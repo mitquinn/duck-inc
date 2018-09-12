@@ -57,7 +57,7 @@ Unfortunately, Tommy didn't really understand the product very well and the duck
 
 We haven't told the cloning team yet but in the mean time we need you to create a **RubberDuck** class.
 
-The **RubberDuck** class can quack and swim however it can **not** fly. So that method should **not** be impliemented. 
+The **RubberDuck** class can quack and swim, however, it **cannot** fly. So that method should **not** be implemented. 
 
 Also as a bonus **RubberDuck** should have a method called listen. Which can be helpful for programmers working on hard tasks.
 

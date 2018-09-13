@@ -72,5 +72,22 @@ public function replicate()
 
 Thanks for all of your hard work this week. Get your pull request in by tomorrow please.
 
+#Day 4#
+
+**Remember to get your pull request in for Day 3!**
+
+Some good news/bad news today. 
+
+The bad news first.
+
+No one in management told the Mark from the Cloning Machine team about the rubber ducks. Apparently the cloning machine wasn't setup properly to clone non-living ducks.
+
+The ducks that were cloned were living-rubber hybrids that quacked _"kill me"_. The weight of all those ducks souls was to much for Mark and he resigned.
+
+The good news!
+
+You have been promoted to principle cloning engineer and you will be responsible for all things cloning related, including the ducks! (There is no salary increase only a title change.)
+
+We added Marks code to y
 
 

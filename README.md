@@ -88,6 +88,8 @@ The good news!
 
 You have been promoted to principle cloning engineer and you will be responsible for all things cloning related, including the ducks! (There is no salary increase only a title change.)
 
-We added Marks code to y
+We added Marks code for you.
+
+We need you to redesign the cloning machine so that you do not have to incur any future modification costs when the company grows and begins to clone other animals besides ducks.
 
 

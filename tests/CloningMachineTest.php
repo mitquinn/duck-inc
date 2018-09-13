@@ -26,14 +26,13 @@ class CloningMachineTest extends TestCase
         $this->cloningMachine = new CloningMachine();
     }
 
-
     /**
      * @test
      */
-    public function it_can_make_a_mallard()
+    public function it_can_make_a_mallard(): void
     {
         /** @var Mallard $mallard */
-        $mallard = $this->cloningMachine->makeDuck(new Mallard());
+        $mallard = $this->cloningMachine->make(new Mallard());
 
         static::assertSame('quack', $mallard->quack());
         static::assertSame('swim', $mallard->swim());
@@ -45,10 +44,10 @@ class CloningMachineTest extends TestCase
     /**
      * @test
      */
-    public function it_can_make_a_canvasback()
+    public function it_can_make_a_canvasback(): void
     {
         /** @var Canvasback $canvasback */
-        $canvasback = $this->cloningMachine->makeDuck(new Canvasback());
+        $canvasback = $this->cloningMachine->make(new Canvasback());
 
         static::assertSame('quack', $canvasback->quack());
         static::assertSame('swim slowly', $canvasback->swim());
@@ -60,10 +59,10 @@ class CloningMachineTest extends TestCase
     /**
      * @test
      */
-    public function it_can_make_a_rubberduck()
+    public function it_can_make_a_rubberduck(): void
     {
         /** @var RubberDuck $rubberDuck */
-        $rubberDuck = $this->cloningMachine->makeDuck(new RubberDuck());
+        $rubberDuck = $this->cloningMachine->make(new RubberDuck());
 
         static::assertSame('quack', $rubberDuck->quack());
         static::assertSame('swim', $rubberDuck->swim());

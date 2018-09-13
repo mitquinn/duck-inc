@@ -92,4 +92,7 @@ We added Marks code for you.
 
 We need you to redesign the cloning machine so that you do not have to incur any future modification costs when the company grows and begins to clone other animals besides ducks.
 
+So task for you to do is to take the **CloningMachine** class and refactor it in a way that will support all of the ducks and other animals in the future.
+
+
 

@@ -8,18 +8,22 @@ namespace App;
  */
 class CloningMachine
 {
-    public function make($class)
+    /**
+     * @param $object
+     * @return mixed
+     */
+    public function make($object)
     {
-        if (is_a($class, Mallard::class) || is_a($class, Canvasback::class)) {
-            $class->quack();
-            $class->swim();
-            $class->fly();
+        if (is_a($object, Mallard::class) || is_a($object, Canvasback::class)) {
+            $object->quack();
+            $object->swim();
+            $object->fly();
         } else {
-            $class->quack();
-            $class->swim();
-            $class->listen();
+            $object->quack();
+            $object->swim();
+            $object->listen();
         }
 
-        return $class->replicate();
+        return $object->replicate();
     }
 }
